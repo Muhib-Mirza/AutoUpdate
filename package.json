@@ -1,0 +1,24 @@
+{
+  "name": "auto-update-app",
+  "version": "1.0.0",
+  "description": "An Electron app to display Auto Update message",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/Muhib-Mirza/AutoUpdate.git",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "electron": "^24.0.0"
+  },
+  "dependencies": {
+    
+    "electron-packager": "^17.1.2",
+    "electron-updater": "^6.2.1"
+  }
+}
